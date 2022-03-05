@@ -1,0 +1,47 @@
+<!-- pb color sample.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker (Programming Bootcamp)</title>
+</head>
+<body>
+     <!-- changing background color using a color name -->
+   <div style="background-color: blue; color:aliceblue">Hello
+    <br/></div>
+        <!-- changing text color using a hexadecimal value -->
+        <p style="background-color: #0000ff; color:aliceblue"> Programing bootcamp </p>
+    
+        <!-- changing text color using an RGB value -->
+        <p style="background-color: rgb(0, 0, 225); color:aliceblue"> Welcome into coding </p>
+        
+        <div style="background-color: rgb(78, 68, 68)">
+        
+            <!-- changing text color using a hexadecimal value -->
+            <p style="color: #008080; color:rgb(242, 156, 245)"> We are Teal </p>
+
+            <!-- changing text color using an RGB value -->
+            <p style="color: rgb(0, 128, 128); color:rgb(255, 251, 240)"> We are Teal </p>
+            
+        </div>
+    </div>
+    <br>
+    <div class="color">
+        <input type="color" id="demo" />
+        <br />
+        <button onclick="getValue()"> Get Value </button>
+        
+        <br> <br>
+
+        <a href="PP Page.html">Back to main page.<a/><br>
+        <script type="text/javascript">
+            function getValue() {
+                alert(document.getElementById('demo').value);
+            }
+        </script>
+    </div>
+</body>
+</html>
